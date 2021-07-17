@@ -1,6 +1,6 @@
 cask "conduktor" do
-  version $VERSION
-  sha256 $SHA
+  version "$VERSION"
+  sha256 "$SHA"
 
   url "https://github.com/conduktor/builds/releases/download/v#{version}/Conduktor-#{version}.pkg", verified: "https://github.com/conduktor"
   name "conduktor"
